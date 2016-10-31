@@ -1,0 +1,50 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5em;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.border {
+  border: none;
+  padding-bottom: 0;
+}
+
+.box {
+  border-color: #f2f2f2;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.3em;
+  }
+
+  body {
+    vertical-align: middle;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
